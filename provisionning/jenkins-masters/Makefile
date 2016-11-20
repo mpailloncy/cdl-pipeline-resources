@@ -18,7 +18,7 @@ destroy:
 infos:
 	@echo "#############################################"
 	@echo "Machines infos :"
-	@jq --raw-output '._meta.hostvars | to_entries[] | "\tlogin = " + .key + " password = " + .value.id + " url = http://" + .value.public_ipv4 + ":8080"' <<< `export TERRAFORM_STATE_ROOT='.' && ./terraform-inventory.py --list --pretty`
+	@jq --raw-output '._meta.hostvars | to_entries[] | "\tJenkins master :: login = " + .key + " password = " + .value.id + " url = http://" + .value.public_ipv4 + ":8080"' <<< `export TERRAFORM_STATE_ROOT='.' && ./terraform-inventory.py --list --pretty`
 	 
 logs:
 	@echo "Displaying logs of $(machine)"

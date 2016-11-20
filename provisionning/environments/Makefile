@@ -18,7 +18,7 @@ destroy:
 infos:
 	@echo "#############################################"
 	@echo "Machines infos :"
-	@jq --raw-output '._meta.hostvars | to_entries[] | "\tlogin = " + .key + " " + .value.public_ipv4' <<< `export TERRAFORM_STATE_ROOT='.' &&  ./terraform-inventory.py --list --pretty`
+	@jq --raw-output '._meta.hostvars | to_entries[] | "\thost = " + .key + " " + .value.public_ipv4' <<< `export TERRAFORM_STATE_ROOT='.' &&  ./terraform-inventory.py --list --pretty`
 
 go:
 	@echo "Connecting to $(machine)"
