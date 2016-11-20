@@ -15,6 +15,9 @@ Chaque partie aura son propre fichier markdown :
 * [workshop2.md - Pipeline As Code](workshop2.md)
 * [workshop3.md - Shared libraries and Deployment](workshop3.md)
 
+Pour accéder à votre instance. Connectez vous à http://178.62.19.26/ et renseigner les identifiants fournis.
+Ensuite, un numéro vous à été attribué : essayez d'accéder à http://178.62.19.26/${MON_NUMERO}.txt pour récupéer les infos de connexion à votre master Jenkins.
+
 ## Ressources
  
 ### Documentation
