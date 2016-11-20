@@ -16,9 +16,8 @@ resource "digitalocean_droplet" "jenkins" {
           timeout = "1m"
     }
 
-    tags   = ["${digitalocean_tag.jenkins.id}"]
 }
 
-output "ip" {
+output "jenkins_IPs" {
   value = [ "${digitalocean_droplet.jenkins.*.ipv4_address}" ]
 }

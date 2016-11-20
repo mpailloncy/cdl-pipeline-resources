@@ -17,7 +17,3 @@ provider "digitalocean" {
 variable "count" {
   default = 1
 }
-
-resource "digitalocean_tag" "jenkins" {
-    name = "jenkins"
-}
