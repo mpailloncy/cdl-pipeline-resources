@@ -13,7 +13,7 @@ Chaque partie aura son propre fichier markdown :
 
 * [workshop1.md - Jenkins Pipeline Basics](workshop1.md)
 * [workshop2.md - Pipeline As Code](workshop2.md)
-* [workshop3.md - Deployment](workshop3.md)
+* [workshop3.md - Shared libraries and Deployment](workshop3.md)
 
 ## Ressources
  
