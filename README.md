@@ -1,5 +1,10 @@
 # Capitole Du Libre - Jenkins Pipeline Workshop
 
+
+## Slides 
+
+Présentation : https://docs.google.com/presentation/d/19Mx724ocAvqpD57yWPPtQnqWFq2fq-GU29VjdD4cFrA/edit#slide=id.p
+
 ## Ateliers
 
 But : explorer les fonctionnalités offertes par Jenkins Pipeline dans le cadre du Continuous Delivery
