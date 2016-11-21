@@ -37,6 +37,6 @@ Ensuite, un numéro vous à été attribué : essayez d'accéder à http://178.6
 
 * [Announcing the Blue Ocean beta, Declarative Pipeline and Pipeline Editor](https://jenkins.io/blog/2016/09/19/blueocean-beta-declarative-pipeline-pipeline-editor/)
 * [Jenkins Pipeline IntelliJ GDSL](http://st-g.de/2016/08/jenkins-pipeline-autocompletion-in-intellij)
-* [Présentation de James Demay sur BlueOcean](https://www.youtube.com/watch?v=mn61VFdScuk)
+* [Présentation de James Dumay sur BlueOcean](https://www.youtube.com/watch?v=mn61VFdScuk)
 * [Présentation de Andrew Bayer sur Declarative Pipeline](https://www.youtube.com/watch?v=ALvg4KK25JU)
 * [Présentation de Jesse Glick sur le futur de Pipeline ](https://www.youtube.com/watch?v=51fndpAWpYQ)
